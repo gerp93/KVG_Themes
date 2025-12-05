@@ -48,7 +48,7 @@ def apply(style: Any, root: Any) -> str:
 # Theme metadata
 THEME_INFO = {
     "id": "dark",
-    "name": "Dark Theme",
-    "icon": "",
+    "name": "🌙 Dark Theme",
+    "icon": "🌙",
     "description": "Easy on the eyes"
 }

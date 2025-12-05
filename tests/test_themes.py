@@ -98,7 +98,7 @@ class TestRegistry(unittest.TestCase):
         self.assertIsNotNone(theme)
         self.assertIn("name", theme)
         self.assertIn("apply_fn", theme)
-        self.assertEqual(theme["name"], "Light Theme")
+        self.assertEqual(theme["name"], "☀️ Light Theme")
 
     def test_get_theme_nonexistent(self):
         """Test getting nonexistent theme."""
